@@ -20,3 +20,7 @@ class Accumulator2:
 
     def duplicate(self, mult = 2):
         self._county *= mult
+
+
+class Accumulator3:
+    pass
