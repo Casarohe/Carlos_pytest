@@ -11,4 +11,12 @@ class Accumulator:
 
 
 class Accumulator2:
-    pass
+    def __init__(self):
+        self._county = 1
+
+    @property
+    def county(self):
+        return self._county
+
+    def duplicate(self, mult = 2):
+        self._county *= mult
