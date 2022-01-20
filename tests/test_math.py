@@ -11,7 +11,15 @@ def test_one_plus_two():
     a = 1
     b = 2
     c = 3
-    assert a + b == 3
+    assert a + b == c
+
+
+@pytest.mark.math
+def test_one_plus_three():
+    a = 1
+    b = 3
+    c = 4
+    assert a + b == c
 
 
 @pytest.mark.math
