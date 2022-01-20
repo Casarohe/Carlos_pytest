@@ -51,3 +51,10 @@ def test_accumulator2_init(accum2):
 def test_accumulator2_mult(accum2):
     accum2.duplicate()
     assert accum2.county == 2
+
+
+@pytest.mark.accumulator2
+def test_accumulator2_exponential(accum2):
+    accum2.duplicate()
+    accum2.duplicate()
+    assert accum2.county == 4
